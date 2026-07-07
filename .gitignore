@@ -1,0 +1,45 @@
+# ===== CMake & Build Artifacts =====
+build/
+build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+compile_commands.json
+
+# ===== Qt Creator & IDE Files =====
+*.user
+CMakeLists.txt.user
+.qtc/
+.vscode/
+.idea/
+
+# ===== Compiled Object Files & Executables =====
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.pdb
+
+# ===== Qt Autogen & Meta-Object Files =====
+*_autogen/
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+*.stash
+
+# ===== Massive Test Data (Do not push to Git!) =====
+search_queries_100k.txt
+
+# ===== Python Cache (For your generation scripts) =====
+__pycache__/
+*.pyc
+
+# ===== OS Generated Files =====
+.DS_Store
+Thumbs.db
