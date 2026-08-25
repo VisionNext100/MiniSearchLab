@@ -1,6 +1,10 @@
 # MiniSearchLab
 ## Yehan WANG, ECNU
 
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/VisionNext100.github.io@main/public/images/projects/project-minisearch.png" width="800" alt="MiniSearchLab">
+</div>
+
 ### Ⅰ Overview
 A desktop mini search engine built with C++ and Qt6 that retrieves, ranks, and displays text documents based on multi-keyword queries. The system constructs an inverted index using hash map structures to efficiently map keywords to their corresponding file names and line numbers. It features a user-friendly graphical interface for directory selection and query input, alongside comprehensive Python scripts for generating boundary and stress test datasets.
 
